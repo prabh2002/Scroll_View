@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="197dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:src="@drawable/passport"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:text="I am currently pursuing my B.Tech in Computer Science and Engineering from The NorthCap University, focusing on artificial intelligence, machine learning, and software development. I have a strong foundation in Java, Data Structures and Algorithms, HTML, CSS, Python, and C.
+
+Recently, I started my internship as a Campus Ambassador at E-cell, IIT Bombay, where I am developing my leadershand organizations."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="183dp"
+        android:layout_height="197dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/passport"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+
+
+</LinearLayout>
